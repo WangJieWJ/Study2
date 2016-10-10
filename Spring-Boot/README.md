@@ -1,6 +1,10 @@
 #Study2
 ## SpringBoot简介
-
+### SpringBoot提供四个主要的特性：
+    1、Spring Boot Starter：它将常用的依赖分组进行进行整合，将其合并到一个依赖中，这样就可以一次性添加项目的Maven或Gradle构建中。
+    2、自动配置：Spring Boot的自动配置特性利用了Spring4对条件化配置的支持，合理的推测应用所使用的Bean并自动化装配他们。
+    3、命令行接口：Spring Boot的CLI发挥了Groovy编程语言的优势，并结合自动配置进一步简化程序开发。
+    4、Actuator：他为Spring Boot应用添加了一定的管理特性。
 
 ## 新建一个SpringBoot
 1、新建一个Maven托管的项目
