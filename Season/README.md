@@ -48,4 +48,5 @@ Controller以及在其中定义的public无参方法称为一个Action。Action�
    即：http://localhost:8080/namsapce/action；
    
 # 调用效果图
-   ![]
+   ![调用Test2的效果](img/2.png)
+   ![调用demo3的效果](img/3.png)
