@@ -22,11 +22,13 @@ public class MyFirstController extends Controller{
 
     public void demo(){
         renderText("我的第一个Controller ,Action名字：demo");
+        //调用方式 http://localhost:8080/MyController/demo
     }
 
     @ActionKey("Test2")
     public void demo2(){
         renderText("我的第一个Controller ,Action名字：Test2");
+        //调用方式 http://localhost:8080/MyController/Test2
     }
 
 }
