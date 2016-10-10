@@ -107,4 +107,5 @@ public class SampleSpringBootController {
 ```
 7、在任何一个有安装Java的平台中，运行java -jar Jar包的名称，就可以在浏览器中使用http://localhost:8080/ 使用该项目。
 
-#项目源码GitHub地址：https://github.com/WangJieWJ/SpringBoot_HelloWorld.git
+#项目源码GitHub地址：
+    https://github.com/WangJieWJ/SpringBoot_HelloWorld.git
