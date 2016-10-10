@@ -112,6 +112,17 @@ public class SampleSpringBootController {
     }
 }
 ```
-5、运行项目代码，即可在浏览器中看到 HelloWorld
-6、打包使用mvn package就可以将该项目打包成一个可执行的Jar文件，该Jar文件存在于项目中的target目录下。
+5、运行项目代码，即可在浏览器中访问http://localhost:8080/ ，看到 HelloWorld
+
+6、添加如下配置，打包使用mvn package就可以将该项目打包成一个可执行的Jar文件，该Jar文件存在于项目中的target目录下。
+```xml
+<build>   <!-- 构建Jar文件 -->
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
+```
 7、在任何一个有安装Java的平台中，运行java -jar Jar包的名称，就可以在浏览器中使用http://localhost:8080/ 使用该项目。
