@@ -33,28 +33,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.BUILD-SNAPSHOT</version>
     </parent>
-
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <url>http://repo.spring.io/snapshot</url>
-            <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <url>http://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-snapshots</id>
-            <url>http://repo.spring.io/snapshot</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <url>http://repo.spring.io/milestone</url>
-        </pluginRepository>
-    </pluginRepositories>
 ```
 
 3、由于正在开发web应用，将添加spring-boot-starter-web依赖-但在此之前，让我们先看下目前的依赖
