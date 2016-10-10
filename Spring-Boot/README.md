@@ -1,5 +1,15 @@
 #Study2
 ## SpringBoot简介
+    Spring Boot简化了基于Spring的应用开发，你只需要"run"就能创建一个独立的，产品级别的Spring应用。 
+    我们为Spring平台及第三方库提供开箱即用的设置，这样你就可以有条不紊地开始。多数Spring Boot应用只需要很少的Spring配置。
+    你可以使用Spring Boot创建Java应用，并使用java -jar启动它或采用传统的war部署方式。
+
+### SpringBoot主要的目标是：
+    1、为所有Spring开发提供一个从根本上更快，且随处可得的入门体验。
+    2、开箱即用，但通过不采用默认设置可以快速摆脱这种方式。
+    3、提供一系列大型项目常用的非功能性特征，比如：内嵌服务器，安全，指标，健康检测，外部化配置。
+    4、绝对没有代码生成，也不需要XML配置。
+
 ### SpringBoot提供四个主要的特性：
     1、Spring Boot Starter：它将常用的依赖分组进行进行整合，将其合并到一个依赖中，这样就可以一次性添加项目的Maven或Gradle构建中。
     2、自动配置：Spring Boot的自动配置特性利用了Spring4对条件化配置的支持，合理的推测应用所使用的Bean并自动化装配他们。
@@ -103,3 +113,5 @@ public class SampleSpringBootController {
 }
 ```
 5、运行项目代码，即可在浏览器中看到 HelloWorld
+6、打包使用mvn package就可以将该项目打包成一个可执行的Jar文件，该Jar文件存在于项目中的target目录下。
+7、在任何一个有安装Java的平台中，运行java -jar Jar包的名称，就可以在浏览器中使用http://localhost:8080/ 使用该项目。
