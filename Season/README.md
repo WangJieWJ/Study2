@@ -1,5 +1,8 @@
 # Study2
 
+# Season项目目录结构图
+![Season项目目录结构图](img/1.png)
+
 # 创建Controller步骤
 1、新建Controller类，
    继承自Controller（com.season.core.Controller）,
@@ -22,13 +25,16 @@ public class MyFirstController extends Controller{
 
     public void demo(){
         renderText("我的第一个Controller ,Action名字：demo");
-        //调用方式 http://localhost:8080/MyController/demo
     }
 
     @ActionKey("Test2")
     public void demo2(){
         renderText("我的第一个Controller ,Action名字：Test2");
-        //调用方式 http://localhost:8080/MyController/Test2
+    }
+
+    public void demo3(){
+        String Str=getPara("username","请求中不存在username参数！");
+        renderHtml(Str);
     }
 
 }
@@ -40,3 +46,6 @@ Controller以及在其中定义的public无参方法称为一个Action。Action�
 # 调用方式：
    http://localhost:8080/MyController/demo
    即：http://localhost:8080/namsapce/action；
+   
+# 调用效果图
+   ![]
