@@ -28,6 +28,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <parent>
+        <!--继承spring-boot-starter-parent后我们可以继承一些默认的依赖，这样就无需添加一堆相应的依赖，把依赖配置最小化 -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.BUILD-SNAPSHOT</version>
